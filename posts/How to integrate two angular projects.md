@@ -172,3 +172,6 @@ import { PrepComponent } from './prep.component';
 })
 export class PrepModule { }
 ```
+## Reference:
+[https://itnext.io/building-micro-frontend-applications-with-angular-elements-34483da08bcb](https://itnext.io/building-micro-frontend-applications-with-angular-elements-34483da08bcb)
+[https://medium.com/@cyrilletuzi/how-to-build-and-publish-an-angular-module-7ad19c0b4464](https://medium.com/@cyrilletuzi/how-to-build-and-publish-an-angular-module-7ad19c0b4464)
