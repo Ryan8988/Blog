@@ -1,4 +1,5 @@
-# Sometimes we need to declare and access global variable in Angular, the best way to do this is using dependency injection(like service)
+# Global Variable in Angular
+Sometimes we need to declare and access global variable in Angular, the best way to do this is using dependency injection(like service)
 ## 1: Create global variables in a new TS file global.model.ts
 ```javascript
 export class Globals {
