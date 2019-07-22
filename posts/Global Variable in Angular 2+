@@ -1,0 +1,1 @@
+Sometimes we need to declare and access global variable in Angular, the best way to do this is using dependency injection
