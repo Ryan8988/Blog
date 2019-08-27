@@ -66,7 +66,7 @@ gulp.task('inline-templates', () => {
 ```
 ### 5. Typescript configuration
 Create tsconfig-build.json file under root directory to control compiler option to use by Typescript and Angular compiler(NGC)
-Make sure you have installed **@angular/compiler, @angular.compiler-cli, typescript, and rollup**
+Make sure you have installed **gulp, gulp-inline-ng2-template, @angular/compiler, @angular.compiler-cli, typescript, and rollup**
 ```json
 {
     "angularCompilerOptions": {
