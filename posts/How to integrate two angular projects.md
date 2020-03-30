@@ -16,7 +16,7 @@ The @angular/elements package provides createCustomElement() API to convert toge
 The JavaScript function customElements.define() will register the custom element tag with the Browser.    
 The ngDoBootstrap method will tell angular to use this module for bootstrapping.
 
-in app.module.ts file:
+in app.module.ts file, add the following code:
 ```javascript
 import { Injector }                     from '@angular/core';
 import { createCustomElement }        from '@angular/elements';
@@ -66,7 +66,7 @@ gulp.task('inline-templates', () => {
 ```
 ### 5. Typescript configuration
 Create tsconfig-build.json file under root directory to control compiler option to use by Typescript and Angular compiler(NGC)
-Make sure you have installed **gulp, gulp-inline-ng2-template, @angular/compiler, @angular.compiler-cli, typescript, and rollup**
+Make sure you have installed **gulp, gulp-inline-ng2-template, @angular/compiler, @angular/compiler-cli, typescript, and rollup**
 ```json
 {
     "angularCompilerOptions": {
